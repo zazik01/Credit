@@ -40,6 +40,8 @@ namespace Bank
             table.Columns[2].Width = 140;
             table.Columns[3].Width = 140;
             table.Columns[4].Width = 140;
+
+            dateTimePicker.Value = DateTime.Now;
         }
 
         private void App_FormClosed(object sender, FormClosedEventArgs e) //Выход из приложения при его закрытии (так как это вторая форма)
